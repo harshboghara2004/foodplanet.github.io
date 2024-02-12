@@ -40,7 +40,7 @@ async function validation() {
     localStorage.setItem(user+"Email",email)
     localStorage.setItem(user+"Phone",phone)
     let delayres = await delay(2000);
-    window.open("./home.html")
+    window.open("./index.html")
     return true;
 }
 
